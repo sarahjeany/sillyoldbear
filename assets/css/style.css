@@ -1,0 +1,110 @@
+@charset "UTF-8";
+/* CSS Document */
+@font-face {
+    font-family: 'ColaborateThinRegular';
+    src: url('ColabThi-webfont.eot');
+    src: url('ColabThi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('ColabThi-webfont.woff') format('woff'),
+         url('ColabThi-webfont.ttf') format('truetype'),
+         url('ColabThi-webfont.svg#ColaborateThinRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ColaborateLightRegular';
+    src: url('ColabLig-webfont.eot');
+    src: url('ColabLig-webfont.eot?#iefix') format('embedded-opentype'),
+         url('ColabLig-webfont.woff') format('woff'),
+         url('ColabLig-webfont.ttf') format('truetype'),
+         url('ColabLig-webfont.svg#ColaborateLightRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {z
+    font-family: 'ColaborateRegular';
+    src: url('ColabReg-webfont.eot');
+    src: url('ColabReg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('ColabReg-webfont.woff') format('woff'),
+         url('ColabReg-webfont.ttf') format('truetype'),
+         url('ColabReg-webfont.svg#ColaborateRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ColaborateMediumRegular';
+    src: url('ColabMed-webfont.eot');
+    src: url('ColabMed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('ColabMed-webfont.woff') format('woff'),
+         url('ColabMed-webfont.ttf') format('truetype'),
+         url('ColabMed-webfont.svg#ColaborateMediumRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ColaborateBoldRegular';
+    src: url('ColabBol-webfont.eot');
+    src: url('ColabBol-webfont.eot?#iefix') format('embedded-opentype'),
+         url('ColabBol-webfont.woff') format('woff'),
+         url('ColabBol-webfont.ttf') format('truetype'),
+         url('ColabBol-webfont.svg#ColaborateBoldRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/* RESET! */
+@import('normalize.css');
+
+/* BEGIN! */
+/* BASIC ELEMENTS */
+body {
+	background-color: #364548;
+	font-size: 16px;
+	font-family: 'ColaborateLightRegular', 'Helvetica Neue', Helvetica Neue, Helvetica, Arial, sans-serif;
+	line-height: 1.5em;
+	color: #B7D7D7;
+}
+section {
+	width: 70%;
+	padding: 2%;
+	border-radius: 5px;
+	margin: 1% auto;
+	background-color: rgba(0,0,0,.5);
+	box-shadow: inset 0px -1px 0px rgba(255,255,255,.5);
+}
+header, footer{
+	width: 100%;
+	text-align: center;
+}
+/* TYPOGRAPHY */
+h1,h2,h3,h4,h5,h6 {
+	font-weight: normal;
+	padding: 0;
+	line-height: 1.2em;
+	margin: .7em 0;
+}
+h1, h2, h3 {
+	font-family: 'ColaborateThinRegular', 'Helvetica Neue', Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+h4, h5 {
+	font-family: 'ColaborateMediumRegular', 'Helvetica Neue', Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+h1 {
+	color: #B7D7D7;
+	font-size: 3em;
+}
+h2 {
+	font-size: 2em;
+}
+h3 {
+	font-size: 1.7em;	
+}
